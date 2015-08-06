@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -19803,7 +19803,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </library>
 <library name="drivers">
 <packages>
-<package name="SOT89-5">
+<package name="SOT89-5-O">
 <wire x1="-2.2875" y1="1.2125" x2="2.1125" y2="1.2125" width="0.127" layer="21"/>
 <wire x1="2.1125" y1="1.2125" x2="2.1125" y2="-1.1875" width="0.127" layer="21"/>
 <wire x1="2.1125" y1="-1.1875" x2="-2.2875" y2="-1.1875" width="0.127" layer="21"/>
@@ -19812,12 +19812,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="1.9125" y1="-0.9875" x2="1.9125" y2="1.0125" width="0.11" layer="52"/>
 <wire x1="1.9125" y1="1.0125" x2="-2.0875" y2="1.0125" width="0.11" layer="52"/>
 <wire x1="-2.0875" y1="1.0125" x2="-2.0875" y2="-0.9875" width="0.11" layer="52"/>
-<smd name="1" x="-1.5875" y="-1.5875" dx="0.5" dy="1.5" layer="1"/>
-<smd name="2" x="-0.0875" y="-1.5875" dx="0.65" dy="1.5" layer="1"/>
-<smd name="2A" x="-0.0875" y="0.7875" dx="1.8" dy="3.3" layer="1"/>
-<smd name="3" x="1.4125" y="-1.5875" dx="0.5" dy="1.5" layer="1"/>
-<smd name="4" x="1.4125" y="1.6625" dx="0.5" dy="1.5" layer="1"/>
-<smd name="5" x="-1.5875" y="1.6625" dx="0.5" dy="1.5" layer="1"/>
+<smd name="1" x="-1.5875" y="-1.5875" dx="0.7" dy="1.5" layer="1"/>
+<smd name="2" x="-0.0875" y="-1.5875" dx="0.7" dy="1.5" layer="1"/>
+<smd name="2A" x="-0.0875" y="0.7875" dx="1.9" dy="3.3" layer="1"/>
+<smd name="3" x="1.4125" y="-1.5875" dx="0.7" dy="1.5" layer="1"/>
+<smd name="4" x="1.4125" y="1.6625" dx="0.7" dy="1.5" layer="1"/>
+<smd name="5" x="-1.5875" y="1.6625" dx="0.7" dy="1.5" layer="1"/>
 <text x="-2.54" y="-1.5875" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
 <pad name="2A@1" x="-0.7" y="0.8" drill="0.3302" diameter="0.3302" stop="no" thermals="no"/>
 <pad name="2A@2" x="-0.1" y="0.8" drill="0.3302" diameter="0.3302" stop="no" thermals="no"/>
@@ -19853,6 +19853,116 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <circle x="-1.905" y="1.5875" radius="0.3175" width="0.127" layer="21"/>
 <smd name="GND@1" x="-0.635" y="0" dx="2.5146" dy="3.4036" layer="1"/>
 </package>
+<package name="SOT-89-5-A">
+<wire x1="-2.2275" y1="1.2195" x2="2.2225" y2="1.2195" width="0.127" layer="21"/>
+<wire x1="2.2225" y1="1.2195" x2="2.2225" y2="-1.1805" width="0.127" layer="21"/>
+<wire x1="2.2225" y1="-1.1805" x2="-2.2275" y2="-1.1805" width="0.127" layer="21"/>
+<wire x1="-2.2275" y1="-1.1805" x2="-2.2275" y2="1.2195" width="0.127" layer="21"/>
+<wire x1="-2.0275" y1="-0.9805" x2="2.0225" y2="-0.9805" width="0.11" layer="52"/>
+<wire x1="2.0225" y1="-0.9805" x2="2.0225" y2="1.0195" width="0.11" layer="52"/>
+<wire x1="2.0225" y1="1.0195" x2="-2.0275" y2="1.0195" width="0.11" layer="52"/>
+<wire x1="-2.0275" y1="1.0195" x2="-2.0275" y2="-0.9805" width="0.11" layer="52"/>
+<smd name="1" x="-1.496478125" y="-1.4955875" dx="1" dy="1.5" layer="1"/>
+<smd name="2" x="-0.000625" y="-1.49611875" dx="1.05" dy="1.5" layer="1"/>
+<smd name="2A" x="0.004803125" y="1.196965625" dx="1.8" dy="2.4" layer="1"/>
+<smd name="3" x="1.505478125" y="-1.498409375" dx="1" dy="1.5" layer="1"/>
+<smd name="5" x="-1.48703125" y="1.64545" dx="0.7" dy="1.5" layer="1"/>
+<smd name="4" x="1.50449375" y="1.65438125" dx="0.7" dy="1.5" layer="1"/>
+<text x="-2.48" y="-1.5805" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
+<polygon width="0.001" layer="29">
+<vertex x="-0.94836875" y="-0.023925"/>
+<vertex x="-0.59865" y="-0.777478125"/>
+<vertex x="0.59928125" y="-0.77710625"/>
+<vertex x="0.95935" y="-0.0260875"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="-0.8382" y="0.0508"/>
+<vertex x="0.8636" y="0.0508"/>
+<vertex x="0.4318" y="-0.8128"/>
+<vertex x="-0.4318" y="-0.8128"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-0.8382" y="0.0508"/>
+<vertex x="0.8636" y="0.0508"/>
+<vertex x="0.4318" y="-0.8128"/>
+<vertex x="-0.4318" y="-0.8128"/>
+</polygon>
+<pad name="2@1" x="-0.635" y="0.762" drill="0.3048" diameter="0.3048" stop="no" thermals="no"/>
+<pad name="2@3" x="0.635" y="0.762" drill="0.3048" diameter="0.3048" stop="no" thermals="no"/>
+<pad name="2@2" x="0" y="0.762" drill="0.3048" diameter="0.3048" stop="no" thermals="no"/>
+</package>
+<package name="SOT89-5-THERMALS">
+<wire x1="-2.20676875" y1="3.55293125" x2="2.19323125" y2="3.55293125" width="0.127" layer="21"/>
+<wire x1="2.19323125" y1="3.55293125" x2="2.19323125" y2="1.15293125" width="0.127" layer="21"/>
+<wire x1="2.19323125" y1="1.15293125" x2="-2.20676875" y2="1.15293125" width="0.127" layer="21"/>
+<wire x1="-2.20676875" y1="1.15293125" x2="-2.20676875" y2="3.55293125" width="0.127" layer="21"/>
+<wire x1="-2.00676875" y1="1.35293125" x2="1.99323125" y2="1.35293125" width="0.11" layer="52"/>
+<wire x1="1.99323125" y1="1.35293125" x2="1.99323125" y2="3.35293125" width="0.11" layer="52"/>
+<wire x1="1.99323125" y1="3.35293125" x2="-2.00676875" y2="3.35293125" width="0.11" layer="52"/>
+<wire x1="-2.00676875" y1="3.35293125" x2="-2.00676875" y2="1.35293125" width="0.11" layer="52"/>
+<smd name="1" x="-1.50676875" y="0.75293125" dx="0.7" dy="1.5" layer="1"/>
+<smd name="2" x="-0.00676875" y="0.75293125" dx="0.7" dy="1.5" layer="1"/>
+<smd name="2A" x="-0.00676875" y="3.12793125" dx="1.9" dy="3.3" layer="1"/>
+<smd name="3" x="1.49323125" y="0.75293125" dx="0.7" dy="1.5" layer="1"/>
+<smd name="4" x="1.49323125" y="4.00293125" dx="0.7" dy="1.5" layer="1"/>
+<smd name="5" x="-1.50676875" y="4.00293125" dx="0.7" dy="1.5" layer="1"/>
+<text x="-2.45926875" y="0.75293125" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
+<pad name="P$1" x="0.008384375" y="1.75714375" drill="0.3302" diameter="0.3302" rot="R90" stop="no" thermals="no"/>
+<pad name="P$2" x="-0.574615625" y="2.988809375" drill="0.3302" diameter="0.3302" rot="R90" stop="no" thermals="no"/>
+<pad name="P$3" x="-0.003728125" y="2.973325" drill="0.3302" diameter="0.3302" rot="R90" stop="no" thermals="no"/>
+<pad name="P$4" x="0.520875" y="2.9888125" drill="0.3302" diameter="0.3302" rot="R90" stop="no" thermals="no"/>
+</package>
+<package name="SOT89-5-A">
+<wire x1="-2.2275" y1="1.2195" x2="2.2225" y2="1.2195" width="0.127" layer="21"/>
+<wire x1="2.2225" y1="1.2195" x2="2.2225" y2="-1.1805" width="0.127" layer="21"/>
+<wire x1="2.2225" y1="-1.1805" x2="-2.2275" y2="-1.1805" width="0.127" layer="21"/>
+<wire x1="-2.2275" y1="-1.1805" x2="-2.2275" y2="1.2195" width="0.127" layer="21"/>
+<wire x1="-2.0275" y1="-0.9805" x2="2.0225" y2="-0.9805" width="0.11" layer="52"/>
+<wire x1="2.0225" y1="-0.9805" x2="2.0225" y2="1.0195" width="0.11" layer="52"/>
+<wire x1="2.0225" y1="1.0195" x2="-2.0275" y2="1.0195" width="0.11" layer="52"/>
+<wire x1="-2.0275" y1="1.0195" x2="-2.0275" y2="-0.9805" width="0.11" layer="52"/>
+<smd name="1" x="-1.496478125" y="-1.4955875" dx="1" dy="1.5" layer="1"/>
+<smd name="2" x="-0.019375" y="0.56611875" dx="1.05" dy="1.5" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="3" x="1.505478125" y="-1.498409375" dx="1" dy="1.5" layer="1"/>
+<smd name="5" x="-1.48703125" y="1.64545" dx="0.7" dy="1.5" layer="1"/>
+<smd name="4" x="1.50449375" y="1.65438125" dx="0.7" dy="1.5" layer="1"/>
+<text x="-2.48" y="-1.5805" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
+<pad name="2@1" x="-0.635" y="0.762" drill="0.3048" diameter="0.3048" stop="no" thermals="no"/>
+<pad name="2@3" x="0.635" y="0.762" drill="0.3048" diameter="0.3048" stop="no" thermals="no"/>
+<pad name="2@2" x="0" y="0.762" drill="0.3048" diameter="0.3048" stop="no" thermals="no"/>
+<polygon width="0.127" layer="1">
+<vertex x="-0.82" y="2.34"/>
+<vertex x="0.84" y="2.34"/>
+<vertex x="0.84" y="2.24"/>
+<vertex x="0.84" y="0.05"/>
+<vertex x="0.47" y="-0.73"/>
+<vertex x="0.47" y="-2.21"/>
+<vertex x="-0.47" y="-2.2"/>
+<vertex x="-0.46" y="-0.81"/>
+<vertex x="-0.83" y="0.03"/>
+<vertex x="-0.83" y="2.34"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-0.83" y="2.34"/>
+<vertex x="0.84" y="2.34"/>
+<vertex x="0.84" y="0.05"/>
+<vertex x="0.47" y="-0.73"/>
+<vertex x="0.47" y="-2.21"/>
+<vertex x="-0.47" y="-2.2"/>
+<vertex x="-0.46" y="-0.81"/>
+<vertex x="-0.83" y="0.03"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-0.8808" y="2.3908"/>
+<vertex x="0.8908" y="2.3908"/>
+<vertex x="0.8908" y="0.05"/>
+<vertex x="0.5208" y="-0.73"/>
+<vertex x="0.5208" y="-2.2608"/>
+<vertex x="-0.5208" y="-2.2508"/>
+<vertex x="-0.5108" y="-0.81"/>
+<vertex x="-0.8808" y="0.03"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="PT4115">
@@ -19883,7 +19993,7 @@ PDF: &lt;A HREF&gt;http://www.google.pl/url?sa=t&amp;rct=j&amp;q=PT4115&amp;sour
 <gate name="IC" symbol="PT4115" x="10.16" y="0"/>
 </gates>
 <devices>
-<device name="B89E" package="SOT89-5">
+<device name="B89E" package="SOT89-5-O">
 <connects>
 <connect gate="IC" pin="CSN" pad="4"/>
 <connect gate="IC" pin="DIM" pad="3"/>
@@ -19902,6 +20012,42 @@ PDF: &lt;A HREF&gt;http://www.google.pl/url?sa=t&amp;rct=j&amp;q=PT4115&amp;sour
 <connect gate="IC" pin="GND" pad="GND@1 P$6 P$7"/>
 <connect gate="IC" pin="SW" pad="P$3"/>
 <connect gate="IC" pin="VIN" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B89E-A" package="SOT-89-5-A">
+<connects>
+<connect gate="IC" pin="CSN" pad="4"/>
+<connect gate="IC" pin="DIM" pad="3"/>
+<connect gate="IC" pin="GND" pad="2 2@1 2@2 2@3 2A"/>
+<connect gate="IC" pin="SW" pad="1"/>
+<connect gate="IC" pin="VIN" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B89E-T" package="SOT89-5-THERMALS">
+<connects>
+<connect gate="IC" pin="CSN" pad="4"/>
+<connect gate="IC" pin="DIM" pad="3"/>
+<connect gate="IC" pin="GND" pad="2 2A P$1 P$2 P$3 P$4"/>
+<connect gate="IC" pin="SW" pad="1"/>
+<connect gate="IC" pin="VIN" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B89E-A2" package="SOT89-5-A">
+<connects>
+<connect gate="IC" pin="CSN" pad="4"/>
+<connect gate="IC" pin="DIM" pad="3"/>
+<connect gate="IC" pin="GND" pad="2 2@1 2@2 2@3"/>
+<connect gate="IC" pin="SW" pad="1"/>
+<connect gate="IC" pin="VIN" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -20629,15 +20775,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="U1" library="drivers" deviceset="PT4115" device="B89E"/>
-<part name="U2" library="drivers" deviceset="PT4115" device="B89E"/>
-<part name="U3" library="drivers" deviceset="PT4115" device="B89E"/>
+<part name="U1" library="drivers" deviceset="PT4115" device="B89E-A2" value="PT4115B89E-A2"/>
+<part name="U2" library="drivers" deviceset="PT4115" device="B89E-A2" value="PT4115B89E-A2"/>
+<part name="U3" library="drivers" deviceset="PT4115" device="B89E-A2" value="PT4115B89E-A2"/>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO07" value="2N3904"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="DO07" value="2N3904"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="DO07" value="2N3904"/>
-<part name="R1" library="resistor" deviceset="R-US_" device="0204/7" value=".33R"/>
-<part name="R2" library="resistor" deviceset="R-US_" device="0204/7" value=".33R"/>
-<part name="R3" library="resistor" deviceset="R-US_" device="0204/7" value=".33R"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="0204/7" value=".3R"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="0204/7" value=".3R"/>
+<part name="R3" library="resistor" deviceset="R-US_" device="0204/7" value=".3R"/>
 <part name="C1" library="rcl" deviceset="CPOL-US" device="TT2D6L" value="100uF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+12V" device=""/>
@@ -20760,17 +20906,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="-30.48" y="-2.54" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-33.02" y="2.54" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="-40.64" y="7.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="-40.8686" y="1.27" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-37.338" y="5.08" size="1.778" layer="96" rot="R90"/>
+<instance part="R5" gate="G$1" x="-43.18" y="7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="-43.4086" y="1.27" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-39.878" y="5.08" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R6" gate="G$1" x="-45.72" y="7.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="-45.9486" y="1.27" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-42.672" y="5.588" size="1.778" layer="96" rot="R90"/>
+<instance part="R6" gate="G$1" x="-48.26" y="7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="-48.4886" y="1.27" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-45.212" y="5.588" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="-35.56" y="7.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="-35.7886" y="1.27" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-32.258" y="4.826" size="1.778" layer="96" rot="R90"/>
+<instance part="R4" gate="G$1" x="-38.1" y="7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="-38.3286" y="1.27" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-34.798" y="4.826" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+2" gate="1" x="-24.13" y="12.7" rot="R270"/>
 <instance part="GND5" gate="1" x="-30.48" y="-60.96"/>
@@ -20785,7 +20931,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <instance part="TP2" gate="G$1" x="-83.82" y="-45.72"/>
 <instance part="TP3" gate="G$1" x="-53.34" y="-40.64"/>
 <instance part="TP4" gate="G$1" x="-53.34" y="0" rot="R180"/>
-<instance part="TP5" gate="G$1" x="-45.72" y="-17.78" rot="R180"/>
+<instance part="TP5" gate="G$1" x="-48.26" y="-17.78" rot="R180"/>
 <instance part="TP6" gate="G$1" x="-5.08" y="-35.56"/>
 <instance part="TP7" gate="G$1" x="-5.08" y="-17.78"/>
 <instance part="TP8" gate="G$1" x="-5.08" y="0"/>
@@ -21055,12 +21201,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<junction x="-40.64" y="12.7"/>
-<wire x1="-45.72" y1="12.7" x2="-40.64" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="12.7" x2="-35.56" y2="12.7" width="0.1524" layer="91"/>
+<junction x="-43.18" y="12.7"/>
+<wire x1="-48.26" y1="12.7" x2="-43.18" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="12.7" x2="-38.1" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<junction x="-35.56" y="12.7"/>
-<wire x1="-35.56" y1="12.7" x2="-26.67" y2="12.7" width="0.1524" layer="91"/>
+<junction x="-38.1" y="12.7"/>
+<wire x1="-38.1" y1="12.7" x2="-26.67" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -21110,11 +21256,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="IC1" gate="G$1" pin="R"/>
 <wire x1="-60.96" y1="-22.86" x2="-53.34" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="-22.86" x2="-53.34" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-38.1" x2="-35.56" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="-38.1" x2="-38.1" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="-35.56" y1="-38.1" x2="-17.78" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="2.54" x2="-35.56" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="-35.56" y="-38.1"/>
+<wire x1="-38.1" y1="-38.1" x2="-17.78" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="2.54" x2="-38.1" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="-38.1" y="-38.1"/>
 <pinref part="TP3" gate="G$1" pin="TP"/>
 <junction x="-53.34" y="-38.1"/>
 </segment>
@@ -21125,11 +21271,11 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="IC1" gate="G$1" pin="B"/>
 <wire x1="-60.96" y1="-17.78" x2="-53.34" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="-17.78" x2="-53.34" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="-2.54" x2="-45.72" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="-2.54" x2="-48.26" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="-45.72" y1="-2.54" x2="-35.56" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="2.54" x2="-45.72" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-45.72" y="-2.54"/>
+<wire x1="-48.26" y1="-2.54" x2="-35.56" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="2.54" x2="-48.26" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="-48.26" y="-2.54"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
 <junction x="-53.34" y="-2.54"/>
 </segment>
@@ -21138,14 +21284,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <segment>
 <pinref part="T2" gate="G1" pin="B"/>
 <pinref part="IC1" gate="G$1" pin="G"/>
-<wire x1="-60.96" y1="-20.32" x2="-45.72" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="-20.32" x2="-48.26" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-45.72" y1="-20.32" x2="-40.64" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="-20.32" x2="-25.4" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="2.54" x2="-40.64" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="-40.64" y="-20.32"/>
+<wire x1="-48.26" y1="-20.32" x2="-43.18" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-20.32" x2="-25.4" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="2.54" x2="-43.18" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="-43.18" y="-20.32"/>
 <pinref part="TP5" gate="G$1" pin="TP"/>
-<junction x="-45.72" y="-20.32"/>
+<junction x="-48.26" y="-20.32"/>
 </segment>
 </net>
 <net name="N$16" class="0">

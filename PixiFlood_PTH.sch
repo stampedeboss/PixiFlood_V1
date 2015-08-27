@@ -18262,14 +18262,15 @@ manufacturer Siemens</description>
 <wire x1="-3.4" y1="3.4" x2="-1.6" y2="3.4" width="0.2032" layer="21"/>
 <wire x1="-1.6" y1="-3.4" x2="-2.35" y2="-3.4" width="0.2032" layer="21"/>
 <circle x="0" y="0" radius="3.125" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="2" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2" width="0.2032" layer="51"/>
 <smd name="1" x="0" y="-3.2" dx="2.2" dy="1.5" layer="1" rot="R180"/>
 <smd name="2" x="0" y="3.2" dx="2.2" dy="1.5" layer="1" rot="R180"/>
-<circle x="0" y="0" radius="3.175" width="0.1524" layer="21"/>
 <pad name="1@A" x="0" y="-1.905" drill="0.8128" shape="long" rot="R180"/>
 <pad name="2@A" x="0" y="1.905" drill="0.8128" shape="long" rot="R180"/>
 <text x="-4.826" y="3.302" size="1.27" layer="25" ratio="10" rot="R270">&gt;NAME</text>
 <text x="-2.286" y="-0.508" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="1.29585" y1="1.523684375" x2="1.29610625" y2="-1.525915625" width="0.127" layer="21" curve="-97.234954"/>
+<wire x1="-1.29585" y1="-1.523684375" x2="-1.29610625" y2="1.525915625" width="0.127" layer="21" curve="-97.234954"/>
 </package>
 </packages>
 <symbols>
@@ -19843,27 +19844,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </library>
 <library name="drivers">
 <packages>
-<package name="SOT89-5-O">
-<wire x1="-2.2875" y1="1.2125" x2="2.1125" y2="1.2125" width="0.127" layer="21"/>
-<wire x1="2.1125" y1="1.2125" x2="2.1125" y2="-1.1875" width="0.127" layer="21"/>
-<wire x1="2.1125" y1="-1.1875" x2="-2.2875" y2="-1.1875" width="0.127" layer="21"/>
-<wire x1="-2.2875" y1="-1.1875" x2="-2.2875" y2="1.2125" width="0.127" layer="21"/>
-<wire x1="-2.0875" y1="-0.9875" x2="1.9125" y2="-0.9875" width="0.11" layer="52"/>
-<wire x1="1.9125" y1="-0.9875" x2="1.9125" y2="1.0125" width="0.11" layer="52"/>
-<wire x1="1.9125" y1="1.0125" x2="-2.0875" y2="1.0125" width="0.11" layer="52"/>
-<wire x1="-2.0875" y1="1.0125" x2="-2.0875" y2="-0.9875" width="0.11" layer="52"/>
-<smd name="1" x="-1.5875" y="-1.5875" dx="0.7" dy="1.5" layer="1"/>
-<smd name="2" x="-0.0875" y="-1.5875" dx="0.7" dy="1.5" layer="1"/>
-<smd name="2A" x="-0.0875" y="0.7875" dx="1.9" dy="3.3" layer="1"/>
-<smd name="3" x="1.4125" y="-1.5875" dx="0.7" dy="1.5" layer="1"/>
-<smd name="4" x="1.4125" y="1.6625" dx="0.7" dy="1.5" layer="1"/>
-<smd name="5" x="-1.5875" y="1.6625" dx="0.7" dy="1.5" layer="1"/>
-<text x="-2.54" y="-1.5875" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
-<pad name="2A@1" x="-0.7" y="0.8" drill="0.3302" diameter="0.3302" stop="no" thermals="no"/>
-<pad name="2A@2" x="-0.1" y="0.8" drill="0.3302" diameter="0.3302" stop="no" thermals="no"/>
-<pad name="2A@3" x="0.5" y="0.8" drill="0.3302" diameter="0.3302" stop="no" thermals="no"/>
-<pad name="2A@4" x="-0.0588" y="-0.597" drill="0.3302" diameter="0.3302" stop="no" thermals="no"/>
-</package>
 <package name="ESOP8">
 <wire x1="1.265" y1="-2.4" x2="-2.035" y2="-2.4" width="0.2032" layer="51"/>
 <wire x1="-2.035" y1="-2.4" x2="-2.535" y2="-2.4" width="0.2032" layer="51"/>
@@ -19893,76 +19873,17 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <circle x="-1.905" y="1.5875" radius="0.3175" width="0.127" layer="21"/>
 <smd name="GND@1" x="-0.635" y="0" dx="2.5146" dy="3.4036" layer="1"/>
 </package>
-<package name="SOT-89-5-A">
-<wire x1="-2.2275" y1="1.2195" x2="2.2225" y2="1.2195" width="0.127" layer="21"/>
+<package name="SOT89-5">
+<wire x1="-2.2275" y1="1.2195" x2="2.2225" y2="1.2195" width="0.127" layer="51"/>
 <wire x1="2.2225" y1="1.2195" x2="2.2225" y2="-1.1805" width="0.127" layer="21"/>
-<wire x1="2.2225" y1="-1.1805" x2="-2.2275" y2="-1.1805" width="0.127" layer="21"/>
+<wire x1="2.2225" y1="-1.1805" x2="-2.2275" y2="-1.1805" width="0.127" layer="51"/>
 <wire x1="-2.2275" y1="-1.1805" x2="-2.2275" y2="1.2195" width="0.127" layer="21"/>
 <wire x1="-2.0275" y1="-0.9805" x2="2.0225" y2="-0.9805" width="0.11" layer="52"/>
 <wire x1="2.0225" y1="-0.9805" x2="2.0225" y2="1.0195" width="0.11" layer="52"/>
 <wire x1="2.0225" y1="1.0195" x2="-2.0275" y2="1.0195" width="0.11" layer="52"/>
 <wire x1="-2.0275" y1="1.0195" x2="-2.0275" y2="-0.9805" width="0.11" layer="52"/>
 <smd name="1" x="-1.496478125" y="-1.4955875" dx="1" dy="1.5" layer="1"/>
-<smd name="2" x="-0.000625" y="-1.49611875" dx="1.05" dy="1.5" layer="1"/>
-<smd name="2A" x="0.004803125" y="1.196965625" dx="1.8" dy="2.4" layer="1"/>
-<smd name="3" x="1.505478125" y="-1.498409375" dx="1" dy="1.5" layer="1"/>
-<smd name="5" x="-1.48703125" y="1.64545" dx="0.7" dy="1.5" layer="1"/>
-<smd name="4" x="1.50449375" y="1.65438125" dx="0.7" dy="1.5" layer="1"/>
-<text x="-2.48" y="-1.5805" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
-<polygon width="0.001" layer="29">
-<vertex x="-0.94836875" y="-0.023925"/>
-<vertex x="-0.59865" y="-0.777478125"/>
-<vertex x="0.59928125" y="-0.77710625"/>
-<vertex x="0.95935" y="-0.0260875"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="-0.8382" y="0.0508"/>
-<vertex x="0.8636" y="0.0508"/>
-<vertex x="0.4318" y="-0.8128"/>
-<vertex x="-0.4318" y="-0.8128"/>
-</polygon>
-<polygon width="0.127" layer="31">
-<vertex x="-0.8382" y="0.0508"/>
-<vertex x="0.8636" y="0.0508"/>
-<vertex x="0.4318" y="-0.8128"/>
-<vertex x="-0.4318" y="-0.8128"/>
-</polygon>
-<pad name="2@1" x="-0.635" y="0.762" drill="0.3048" diameter="0.3048" stop="no" thermals="no"/>
-<pad name="2@3" x="0.635" y="0.762" drill="0.3048" diameter="0.3048" stop="no" thermals="no"/>
-<pad name="2@2" x="0" y="0.762" drill="0.3048" diameter="0.3048" stop="no" thermals="no"/>
-</package>
-<package name="SOT89-5-THERMALS">
-<wire x1="-2.20676875" y1="3.55293125" x2="2.19323125" y2="3.55293125" width="0.127" layer="21"/>
-<wire x1="2.19323125" y1="3.55293125" x2="2.19323125" y2="1.15293125" width="0.127" layer="21"/>
-<wire x1="2.19323125" y1="1.15293125" x2="-2.20676875" y2="1.15293125" width="0.127" layer="21"/>
-<wire x1="-2.20676875" y1="1.15293125" x2="-2.20676875" y2="3.55293125" width="0.127" layer="21"/>
-<wire x1="-2.00676875" y1="1.35293125" x2="1.99323125" y2="1.35293125" width="0.11" layer="52"/>
-<wire x1="1.99323125" y1="1.35293125" x2="1.99323125" y2="3.35293125" width="0.11" layer="52"/>
-<wire x1="1.99323125" y1="3.35293125" x2="-2.00676875" y2="3.35293125" width="0.11" layer="52"/>
-<wire x1="-2.00676875" y1="3.35293125" x2="-2.00676875" y2="1.35293125" width="0.11" layer="52"/>
-<smd name="1" x="-1.50676875" y="0.75293125" dx="0.7" dy="1.5" layer="1"/>
-<smd name="2" x="-0.00676875" y="0.75293125" dx="0.7" dy="1.5" layer="1"/>
-<smd name="2A" x="-0.00676875" y="3.12793125" dx="1.9" dy="3.3" layer="1"/>
-<smd name="3" x="1.49323125" y="0.75293125" dx="0.7" dy="1.5" layer="1"/>
-<smd name="4" x="1.49323125" y="4.00293125" dx="0.7" dy="1.5" layer="1"/>
-<smd name="5" x="-1.50676875" y="4.00293125" dx="0.7" dy="1.5" layer="1"/>
-<text x="-2.45926875" y="0.75293125" size="0.6096" layer="25" rot="R90">&gt;NAME</text>
-<pad name="P$1" x="0.008384375" y="1.75714375" drill="0.3302" diameter="0.3302" rot="R90" stop="no" thermals="no"/>
-<pad name="P$2" x="-0.574615625" y="2.988809375" drill="0.3302" diameter="0.3302" rot="R90" stop="no" thermals="no"/>
-<pad name="P$3" x="-0.003728125" y="2.973325" drill="0.3302" diameter="0.3302" rot="R90" stop="no" thermals="no"/>
-<pad name="P$4" x="0.520875" y="2.9888125" drill="0.3302" diameter="0.3302" rot="R90" stop="no" thermals="no"/>
-</package>
-<package name="SOT89-5-A">
-<wire x1="-2.2275" y1="1.2195" x2="2.2225" y2="1.2195" width="0.127" layer="21"/>
-<wire x1="2.2225" y1="1.2195" x2="2.2225" y2="-1.1805" width="0.127" layer="21"/>
-<wire x1="2.2225" y1="-1.1805" x2="-2.2275" y2="-1.1805" width="0.127" layer="21"/>
-<wire x1="-2.2275" y1="-1.1805" x2="-2.2275" y2="1.2195" width="0.127" layer="21"/>
-<wire x1="-2.0275" y1="-0.9805" x2="2.0225" y2="-0.9805" width="0.11" layer="52"/>
-<wire x1="2.0225" y1="-0.9805" x2="2.0225" y2="1.0195" width="0.11" layer="52"/>
-<wire x1="2.0225" y1="1.0195" x2="-2.0275" y2="1.0195" width="0.11" layer="52"/>
-<wire x1="-2.0275" y1="1.0195" x2="-2.0275" y2="-0.9805" width="0.11" layer="52"/>
-<smd name="1" x="-1.496478125" y="-1.4955875" dx="1" dy="1.5" layer="1"/>
-<smd name="2" x="-0.019375" y="0.56611875" dx="1.05" dy="1.5" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="0.006025" y="1.20111875" dx="1.778" dy="2.286" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
 <smd name="3" x="1.505478125" y="-1.498409375" dx="1" dy="1.5" layer="1"/>
 <smd name="5" x="-1.48703125" y="1.64545" dx="0.7" dy="1.5" layer="1"/>
 <smd name="4" x="1.50449375" y="1.65438125" dx="0.7" dy="1.5" layer="1"/>
@@ -19970,19 +19891,17 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pad name="2@1" x="-0.635" y="0.762" drill="0.3048" diameter="0.3048" stop="no" thermals="no"/>
 <pad name="2@3" x="0.635" y="0.762" drill="0.3048" diameter="0.3048" stop="no" thermals="no"/>
 <pad name="2@2" x="0" y="0.762" drill="0.3048" diameter="0.3048" stop="no" thermals="no"/>
-<polygon width="0.127" layer="1">
-<vertex x="-0.82" y="2.34"/>
+<polygon width="0.1524" layer="1">
+<vertex x="-0.83" y="2.34"/>
 <vertex x="0.84" y="2.34"/>
-<vertex x="0.84" y="2.24"/>
-<vertex x="0.84" y="0.05"/>
-<vertex x="0.47" y="-0.73"/>
+<vertex x="0.84" y="0.0246"/>
+<vertex x="0.47" y="-0.8062"/>
 <vertex x="0.47" y="-2.21"/>
 <vertex x="-0.47" y="-2.2"/>
 <vertex x="-0.46" y="-0.81"/>
 <vertex x="-0.83" y="0.03"/>
-<vertex x="-0.83" y="2.34"/>
 </polygon>
-<polygon width="0.127" layer="31">
+<polygon width="0.1524" layer="31">
 <vertex x="-0.83" y="2.34"/>
 <vertex x="0.84" y="2.34"/>
 <vertex x="0.84" y="0.05"/>
@@ -19992,7 +19911,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="-0.46" y="-0.81"/>
 <vertex x="-0.83" y="0.03"/>
 </polygon>
-<polygon width="0.127" layer="29">
+<polygon width="0.1524" layer="29">
 <vertex x="-0.8808" y="2.3908"/>
 <vertex x="0.8908" y="2.3908"/>
 <vertex x="0.8908" y="0.05"/>
@@ -20002,6 +19921,22 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="-0.5108" y="-0.81"/>
 <vertex x="-0.8808" y="0.03"/>
 </polygon>
+<wire x1="-0.5588" y1="-2.286" x2="-0.5588" y2="-0.8636" width="0.127" layer="21"/>
+<wire x1="-0.5588" y1="-0.8636" x2="-0.9144" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.9144" y1="0" x2="-0.9144" y2="2.3876" width="0.127" layer="21"/>
+<wire x1="-0.9144" y1="2.3876" x2="0.9144" y2="2.3876" width="0.127" layer="21"/>
+<wire x1="0.9144" y1="2.3876" x2="0.9144" y2="0" width="0.127" layer="21"/>
+<wire x1="0.9144" y1="0" x2="0.5588" y2="-0.8128" width="0.127" layer="21"/>
+<wire x1="0.5588" y1="-0.8128" x2="0.5588" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="0.5588" y1="-2.286" x2="-0.5588" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="-2.0701" y1="-1.1805" x2="-2.2275" y2="-1.1805" width="0.127" layer="21"/>
+<wire x1="2.2225" y1="-1.1805" x2="2.0651" y2="-1.1805" width="0.127" layer="21"/>
+<wire x1="0.9271" y1="-1.1805" x2="0.6935" y2="-1.1805" width="0.127" layer="21"/>
+<wire x1="-0.6985" y1="-1.1805" x2="-0.9321" y2="-1.1805" width="0.127" layer="21"/>
+<wire x1="-2.2275" y1="1.2195" x2="-1.9177" y2="1.2195" width="0.127" layer="21"/>
+<wire x1="1.9127" y1="1.2195" x2="2.2225" y2="1.2195" width="0.127" layer="21"/>
+<wire x1="1.0237" y1="1.2195" x2="1.1049" y2="1.2195" width="0.127" layer="21"/>
+<wire x1="-1.0845" y1="1.2195" x2="-1.0033" y2="1.2195" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -20033,18 +19968,6 @@ PDF: &lt;A HREF&gt;http://www.google.pl/url?sa=t&amp;rct=j&amp;q=PT4115&amp;sour
 <gate name="IC" symbol="PT4115" x="10.16" y="0"/>
 </gates>
 <devices>
-<device name="B89E" package="SOT89-5-O">
-<connects>
-<connect gate="IC" pin="CSN" pad="4"/>
-<connect gate="IC" pin="DIM" pad="3"/>
-<connect gate="IC" pin="GND" pad="2 2A 2A@1 2A@2 2A@3 2A@4"/>
-<connect gate="IC" pin="SW" pad="1"/>
-<connect gate="IC" pin="VIN" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="BSOH" package="ESOP8">
 <connects>
 <connect gate="IC" pin="CSN" pad="P$1"/>
@@ -20057,31 +19980,7 @@ PDF: &lt;A HREF&gt;http://www.google.pl/url?sa=t&amp;rct=j&amp;q=PT4115&amp;sour
 <technology name=""/>
 </technologies>
 </device>
-<device name="B89E-A" package="SOT-89-5-A">
-<connects>
-<connect gate="IC" pin="CSN" pad="4"/>
-<connect gate="IC" pin="DIM" pad="3"/>
-<connect gate="IC" pin="GND" pad="2 2@1 2@2 2@3 2A"/>
-<connect gate="IC" pin="SW" pad="1"/>
-<connect gate="IC" pin="VIN" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="B89E-T" package="SOT89-5-THERMALS">
-<connects>
-<connect gate="IC" pin="CSN" pad="4"/>
-<connect gate="IC" pin="DIM" pad="3"/>
-<connect gate="IC" pin="GND" pad="2 2A P$1 P$2 P$3 P$4"/>
-<connect gate="IC" pin="SW" pad="1"/>
-<connect gate="IC" pin="VIN" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="B89E-A2" package="SOT89-5-A">
+<device name="B89E" package="SOT89-5">
 <connects>
 <connect gate="IC" pin="CSN" pad="4"/>
 <connect gate="IC" pin="DIM" pad="3"/>
@@ -20815,9 +20714,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="U1" library="drivers" deviceset="PT4115" device="B89E-A2" value="PT4115B89E-A2"/>
-<part name="U2" library="drivers" deviceset="PT4115" device="B89E-A2" value="PT4115B89E-A2"/>
-<part name="U3" library="drivers" deviceset="PT4115" device="B89E-A2" value="PT4115B89E-A2"/>
+<part name="U1" library="drivers" deviceset="PT4115" device="B89E" value="PT4115B89E"/>
+<part name="U2" library="drivers" deviceset="PT4115" device="B89E" value="PT4115B89E"/>
+<part name="U3" library="drivers" deviceset="PT4115" device="B89E" value="PT4115B89E"/>
 <part name="D1" library="diode" deviceset="DIODE-" device="DO07" value="2N3904"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="DO07" value="2N3904"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="DO07" value="2N3904"/>

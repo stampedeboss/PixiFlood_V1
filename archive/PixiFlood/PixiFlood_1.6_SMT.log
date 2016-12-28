@@ -1,0 +1,33 @@
+Project Library Creation Log File 6/25/15 12:48 AM
+EAGLE Version 7.3.0 Copyright (c) 1988-2015 CadSoft
+Created from: PixiFlood_1.6_SMT.brd
+
+LIBRARY: MyLibrary.lbr
+   PAC: 22-23-2031
+LIBRARY: SparkFun-Connectors.lbr
+   PAC: 1X02_LOCK
+LIBRARY: SparkFun-DiscreteSemi.lbr
+   PAC: SMA-DIODE
+LIBRARY: capacitors.lbr
+   PAC: EIA3216
+   PAC: VISHAY-CASE-D
+LIBRARY: drivers.lbr
+   PAC: SOT89-5
+   PAC: WS2811S
+LIBRARY: inductors.lbr
+   PAC: SLF7045
+LIBRARY: linear.lbr
+   PAC: TO92
+LIBRARY: logic.lbr
+   PAC: SSOP8-0.65P
+LIBRARY: rcl.lbr
+   PAC: R1206
+LIBRARY: resistor.lbr
+   PAC: R1210
+LIBRARY: special.lbr
+   PAC: LED_BOARD-V4
+LIBRARY: testpad.lbr
+   PAC: TP15R
+   PAC: TP15SQ
+   PAC: TP20R
+   PAC: TP20SQ
